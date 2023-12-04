@@ -8,7 +8,7 @@ import curriculo.service.CurriculoService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/curriculos")
+@RequestMapping("/curriculos")
 public class CurriculoController {
     @Autowired
     private CurriculoService curriculoService;

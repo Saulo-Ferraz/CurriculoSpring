@@ -1,7 +1,8 @@
-package curriculo;
+package curriculo.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
+@Entity
 public class Curriculo {
 
         @Id

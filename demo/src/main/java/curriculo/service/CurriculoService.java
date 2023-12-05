@@ -1,4 +1,4 @@
-package curriculo;
+package curriculo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,6 +6,7 @@ import curriculo.repository.CurriculoRepository;
 import curriculo.model.Curriculo;
 
 import java.util.List;
+
 
 @Service
 public class CurriculoService {
